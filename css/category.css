@@ -147,8 +147,11 @@ body {
 .articles .article-bg:hover {
 	transform: scale(1.03);
 }
-.article-image {
-	min-height: 245px;
+@media screen and (max-width: 800px) {
+	.single-article img {
+		width: 90%;
+		height: 90%;
+	}
 }
 .articles .article-title {
 	font-weight: bold;
