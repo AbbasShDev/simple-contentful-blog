@@ -162,6 +162,9 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 }
+.article-title p {
+	text-transform: capitalize;
+}
 /* end of articles */
 /* start footer */
 .footer {
