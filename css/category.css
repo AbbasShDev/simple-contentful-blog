@@ -147,6 +147,9 @@ body {
 .articles .article-bg:hover {
 	transform: scale(1.03);
 }
+.article-image {
+	min-height: 245px;
+}
 .articles .article-title {
 	font-weight: bold;
 	margin-top: 11rem;
