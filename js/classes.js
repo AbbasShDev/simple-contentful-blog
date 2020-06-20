@@ -99,7 +99,7 @@ class UI {
 		mainDiv.className = '';
 		mainDiv.className = 'main single-article mx-auto py-5 col-11 col-lg-9 row justify-content-around';
 		mainDiv.innerHTML = `
-			<img class="pt-5 w-75 " src=${article.image} alt="">
+			<img class="pt-5" src=${article.image} alt="">
 			${article.articleBody}
 			<img class="mr-auto" style="width: 50px; height: 50px;" src="images/quote.svg" alt="">
 		   <br>
