@@ -155,6 +155,9 @@ body {
 	margin-top: 11rem;
 	margin-left: 1rem;
 }
+.article-title p {
+	text-transform: capitalize;
+}
 /* end of articles */
 /* start footer */
 .footer {
